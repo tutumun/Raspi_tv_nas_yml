@@ -60,7 +60,7 @@ services:
             - ./epgstation/data:/app/data
             - ./epgstation/thumbnail:/app/thumbnail
             - ./epgstation/logs:/app/logs
-            - //OMVで設定した共有フォルダの絶対アドレス/共有フォルダ名:/app/recorded
+            - /OMVで設定した共有フォルダの絶対アドレス/共有フォルダ名:/app/recorded
         environment:
             TZ: "Asia/Tokyo"
         depends_on:
